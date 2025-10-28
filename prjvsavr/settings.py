@@ -93,10 +93,7 @@ WSGI_APPLICATION = 'prjvsavr.wsgi.application'
 
 DATABASES = {
     'default': {
-        'default': dj_database_url.config(
-            default='postgresql://postgres:12345@localhost:5432/bdpruebarnr',
-            conn_max_age=600
-        )
+        'default': dj_database_url.config(default='postgresql://postgres:12345@localhost:5432/bdpruebarnr',  conn_max_age=600)
     }
 }
 
