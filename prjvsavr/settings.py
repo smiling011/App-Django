@@ -92,8 +92,11 @@ WSGI_APPLICATION = 'prjvsavr.wsgi.application'
 # }
 
 DATABASES = {
-    'default': {
-        'default': dj_database_url.config(default=os.environ.get('DATABASE_URL', 'postgresql://postgres:12345@localhost:5432/bdpruebarnr'),conn_max_age=600)
+    'default': {  # <--- (1) CLAVE DE CONEXIÓN
+        'default': dj_database_url.config(  # <--- (2) CLAVE DE ANIDACIÓN INCORRECTA
+            default=os.environ.get('DATABASE_URL', 'postgresql://postgres:12345@localhost:5432/bdpruebarnr'),
+            conn_max_age=600
+        )
     }
 }
 
