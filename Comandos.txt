@@ -1,0 +1,122 @@
+C:\Users\PC\Documents\Mis Repositorios GitHub\PRJRENDER>python -m venv env
+
+C:\Users\PC\Documents\Mis Repositorios GitHub\PRJRENDER>venv\Scripts\activate
+El sistema no puede encontrar la ruta especificada.
+
+C:\Users\PC\Documents\Mis Repositorios GitHub\PRJRENDER>env\Scripts\activate
+
+(env) C:\Users\PC\Documents\Mis Repositorios GitHub\PRJRENDER>pip instal django psycopg2-binary gunicorn whitenoise[brotli] dj-database-url
+ERROR: unknown command "instal" - maybe you meant "install"
+
+(env) C:\Users\PC\Documents\Mis Repositorios GitHub\PRJRENDER>pip install django psycopg2-binary gunicorn whitenoise[brotli] dj-database-url
+Collecting django
+  Obtaining dependency information for django from https://files.pythonhosted.org/packages/8f/ef/81f3372b5dd35d8d354321155d1a38894b2b766f576d0abffac4d8ae78d9/django-5.2.7-py3-none-any.whl.metadata
+  Downloading django-5.2.7-py3-none-any.whl.metadata (4.1 kB)
+Collecting psycopg2-binary
+  Obtaining dependency information for psycopg2-binary from https://files.pythonhosted.org/packages/b1/d2/99b55e85832ccde77b211738ff3925a5d73ad183c0b37bcbbe5a8ff04978/psycopg2_binary-2.9.11-cp312-cp312-win_amd64.whl.metadata
+  Downloading psycopg2_binary-2.9.11-cp312-cp312-win_amd64.whl.metadata (5.1 kB)
+Collecting gunicorn
+  Obtaining dependency information for gunicorn from https://files.pythonhosted.org/packages/cb/7d/6dac2a6e1eba33ee43f318edbed4ff29151a49b5d37f080aad1e6469bca4/gunicorn-23.0.0-py3-none-any.whl.metadata
+  Downloading gunicorn-23.0.0-py3-none-any.whl.metadata (4.4 kB)
+Collecting whitenoise[brotli]
+  Obtaining dependency information for whitenoise[brotli] from https://files.pythonhosted.org/packages/6c/e9/4366332f9295fe0647d7d3251ce18f5615fbcb12d02c79a26f8dba9221b3/whitenoise-6.11.0-py3-none-any.whl.metadata
+  Downloading whitenoise-6.11.0-py3-none-any.whl.metadata (3.7 kB)
+Collecting dj-database-url
+  Obtaining dependency information for dj-database-url from https://files.pythonhosted.org/packages/aa/5e/86a43c6fdaa41c12d58e4ff3ebbfd6b71a7cb0360a08614e3754ef2e9afb/dj_database_url-3.0.1-py3-none-any.whl.metadata
+  Downloading dj_database_url-3.0.1-py3-none-any.whl.metadata (14 kB)
+Collecting asgiref>=3.8.1 (from django)
+  Obtaining dependency information for asgiref>=3.8.1 from https://files.pythonhosted.org/packages/17/9c/fc2331f538fbf7eedba64b2052e99ccf9ba9d6888e2f41441ee28847004b/asgiref-3.10.0-py3-none-any.whl.metadata
+  Downloading asgiref-3.10.0-py3-none-any.whl.metadata (9.3 kB)
+Collecting sqlparse>=0.3.1 (from django)
+  Obtaining dependency information for sqlparse>=0.3.1 from https://files.pythonhosted.org/packages/a9/5c/bfd6bd0bf979426d405cc6e71eceb8701b148b16c21d2dc3c261efc61c7b/sqlparse-0.5.3-py3-none-any.whl.metadata
+  Downloading sqlparse-0.5.3-py3-none-any.whl.metadata (3.9 kB)
+Collecting tzdata (from django)
+  Obtaining dependency information for tzdata from https://files.pythonhosted.org/packages/5c/23/c7abc0ca0a1526a0774eca151daeb8de62ec457e77262b66b359c3c7679e/tzdata-2025.2-py2.py3-none-any.whl.metadata
+  Downloading tzdata-2025.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting packaging (from gunicorn)
+  Obtaining dependency information for packaging from https://files.pythonhosted.org/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl.metadata
+  Downloading packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting brotli (from whitenoise[brotli])
+  Obtaining dependency information for brotli from https://files.pythonhosted.org/packages/3d/d5/942051b45a9e883b5b6e98c041698b1eb2012d25e5948c58d6bf85b1bb43/Brotli-1.1.0-cp312-cp312-win_amd64.whl.metadata
+  Downloading Brotli-1.1.0-cp312-cp312-win_amd64.whl.metadata (5.6 kB)
+Downloading django-5.2.7-py3-none-any.whl (8.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 8.0 MB/s eta 0:00:00
+Downloading psycopg2_binary-2.9.11-cp312-cp312-win_amd64.whl (2.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.7/2.7 MB 6.2 MB/s eta 0:00:00
+Downloading gunicorn-23.0.0-py3-none-any.whl (85 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 85.0/85.0 kB ? eta 0:00:00
+Downloading dj_database_url-3.0.1-py3-none-any.whl (8.8 kB)
+Downloading asgiref-3.10.0-py3-none-any.whl (24 kB)
+Downloading sqlparse-0.5.3-py3-none-any.whl (44 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.4/44.4 kB 2.3 MB/s eta 0:00:00
+Downloading Brotli-1.1.0-cp312-cp312-win_amd64.whl (357 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 357.3/357.3 kB 4.4 MB/s eta 0:00:00
+Downloading packaging-25.0-py3-none-any.whl (66 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.5/66.5 kB 3.5 MB/s eta 0:00:00
+Downloading tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 347.8/347.8 kB 5.4 MB/s eta 0:00:00
+Downloading whitenoise-6.11.0-py3-none-any.whl (20 kB)
+Installing collected packages: brotli, whitenoise, tzdata, sqlparse, psycopg2-binary, packaging, asgiref, gunicorn, django, dj-database-url
+Successfully installed asgiref-3.10.0 brotli-1.1.0 dj-database-url-3.0.1 django-5.2.7 gunicorn-23.0.0 packaging-25.0 psycopg2-binary-2.9.11 sqlparse-0.5.3 tzdata-2025.2 whitenoise-6.11.0
+
+[notice] A new release of pip is available: 23.2.1 -> 25.3
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(env) C:\Users\PC\Documents\Mis Repositorios GitHub\PRJRENDER>
+(env) C:\Users\PC\Documents\Mis Repositorios GitHub\PRJRENDER>pip freeze > requirements.txt
+
+(env) C:\Users\PC\Documents\Mis Repositorios GitHub\PRJRENDER>django-admin startproject prjvsavr .
+
+(env) C:\Users\PC\Documents\Mis Repositorios GitHub\PRJRENDER>python manage.py
+
+Type 'manage.py help <subcommand>' for help on a specific subcommand.
+
+Available subcommands:
+
+[auth]
+    changepassword
+    createsuperuser
+
+[contenttypes]
+    remove_stale_contenttypes
+
+[django]
+    check
+    compilemessages
+    createcachetable
+    dbshell
+    diffsettings
+    dumpdata
+    flush
+    inspectdb
+    loaddata
+    makemessages
+    makemigrations
+    migrate
+    optimizemigration
+    sendtestemail
+    shell
+    showmigrations
+    sqlflush
+    sqlmigrate
+    sqlsequencereset
+    squashmigrations
+    startapp
+    startproject
+    test
+    testserver
+
+[sessions]
+    clearsessions
+
+[staticfiles]
+    collectstatic
+    findstatic
+    runserver
+
+(env) C:\Users\PC\Documents\Mis Repositorios GitHub\PRJRENDER>python manage.py startapp appvsavr
+
+(env) C:\Users\PC\Documents\Mis Repositorios GitHub\PRJRENDER>python --version
+Python 3.12.0
+
+(env) C:\Users\PC\Documents\Mis Repositorios GitHub\PRJRENDER>
